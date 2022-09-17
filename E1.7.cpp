@@ -8,13 +8,23 @@ The program prints some names on separate lines.
 */
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-	cout << "Christopher" << endl;
-	cout << "Ashley" << endl;
-	cout << "Joshua" << endl;
+        string a = "";
+        cin >> a;
 
-	return 0;
+        string b = "";
+        cin >> b;
+
+        string c = "";
+        cin >> c;
+
+        cout << a << endl;
+        cout << b << endl;
+        cout << c << endl;
+	
+        return 0;
 }
